@@ -38,7 +38,7 @@ CREATE TABLE cr_address (
 
 INSERT INTO cr_address (district_code, street_code, building, extension, apartment) VALUES
 (1, 1, '10', '2', '121'),
-(1, 1, '271', null, null);
+(1, 1, '10', '2', '121');
 
 
 CREATE TABLE cr_person (
@@ -76,6 +76,6 @@ CREATE TABLE cr_address_person (
 
 INSERT INTO cr_address_person (address_id, person_id, start_date, end_date) VALUES
 (1, 1, '2014-10-12', null),
-(2, 2, '2014-10-12', null),
+(1, 2, '2014-10-12', null),
 (1, 3, '2016-02-05', null),
 (1, 4, '2018-12-11', null);
